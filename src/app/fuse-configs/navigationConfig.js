@@ -6,14 +6,22 @@ const navigationConfig = [
         'icon'    : 'apps',
         'children': [
             {
-                'id'   : 'example-component',
-                'title': 'Example',
-                'type' : 'item',
-                'icon' : 'whatshot',
-                'url'  : '/example'
+                'id'      : 'dashboards',
+                'title'   : 'Dashboards',
+                'type'    : 'collapse',
+                'icon'    : 'dashboard',
+                'children': [
+                    {
+                        'id'   : 'analytics-dashboard',
+                        'title': 'Analytics',
+                        'type' : 'item',
+                        'url'  : '/apps/dashboards/analytics'
+                    }
+                ]
             }
         ]
     }
 ];
 
 export default navigationConfig;
+

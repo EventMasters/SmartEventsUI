@@ -5,6 +5,8 @@ import connect from 'react-redux/es/connect/connect';
 import {withRouter} from 'react-router-dom';
 import NavbarMobileToggleButton from 'app/fuse-layouts/shared-components/NavbarMobileToggleButton';
 import QuickPanelToggleButton from 'app/fuse-layouts/shared-components/quickPanel/QuickPanelToggleButton';
+import ChatPanelToggleButton from 'app/fuse-layouts/shared-components/chatPanel/ChatPanelToggleButton';
+import UserMenu from 'app/fuse-layouts/shared-components/UserMenu';
 
 const styles = theme => ({
     separator: {
@@ -38,7 +40,18 @@ const ToolbarLayout2 = ({classes, settings, toolbarTheme}) => {
 
                     <div className="flex">
 
+                        <UserMenu/>
+
+                        <div className={classes.separator}/>
+
                         <FuseSearch/>
+
+                        <Hidden lgUp>
+
+                            <div className={classes.separator}/>
+
+                            <ChatPanelToggleButton/>
+                        </Hidden>
 
                         <div className={classes.separator}/>
 

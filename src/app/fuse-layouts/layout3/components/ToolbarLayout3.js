@@ -6,6 +6,8 @@ import {withRouter} from 'react-router-dom';
 import classNames from 'classnames';
 import NavbarMobileToggleButton from 'app/fuse-layouts/shared-components/NavbarMobileToggleButton';
 import QuickPanelToggleButton from 'app/fuse-layouts/shared-components/quickPanel/QuickPanelToggleButton';
+import ChatPanelToggleButton from 'app/fuse-layouts/shared-components/chatPanel/ChatPanelToggleButton';
+import UserMenu from 'app/fuse-layouts/shared-components/UserMenu';
 import Logo from 'app/fuse-layouts/shared-components/Logo';
 
 const styles = theme => ({
@@ -50,6 +52,17 @@ const ToolbarLayout3 = ({classes, settings, toolbarTheme}) => {
                             <FuseSearch/>
                             <div className={classes.separator}/>
                         </Hidden>
+
+                        <UserMenu/>
+
+                        <Hidden lgUp>
+
+                            <div className={classes.separator}/>
+
+                            <ChatPanelToggleButton/>
+                        </Hidden>
+
+                        <div className={classes.separator}/>
 
                         <QuickPanelToggleButton/>
 

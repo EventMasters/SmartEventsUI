@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppBar, MuiThemeProvider, Toolbar, Typography} from '@material-ui/core';
+import {AppBar, MuiThemeProvider, Toolbar} from '@material-ui/core';
 import connect from 'react-redux/es/connect/connect';
 
 const FooterLayout1 = ({classes, footerTheme}) => {
@@ -8,9 +8,13 @@ const FooterLayout1 = ({classes, footerTheme}) => {
         <MuiThemeProvider theme={footerTheme}>
             <AppBar id="fuse-footer" className="relative z-10" color="default">
                 <Toolbar className="px-16 py-0 flex items-center">
-                    <Typography>
-                        Footer
-                    </Typography>
+
+                    <div className="flex flex-1">
+                        Copyrights &copy; SmartEvents
+                    </div>
+
+                    <div>
+                    </div>
                 </Toolbar>
             </AppBar>
         </MuiThemeProvider>
