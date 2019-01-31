@@ -10,7 +10,14 @@ const navigationConfig = [
                 'title': 'Example',
                 'type' : 'item',
                 'icon' : 'whatshot',
-                'url'  : '/example'
+                'url'  : '/Example'
+            },
+            {
+                'id'   : 'event-component',
+                'title': 'Events',
+                'type' : 'item',
+                'icon' : 'check_box',
+                'url'  : '/apps/Events'
             }
         ]
     }

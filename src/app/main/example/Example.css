@@ -1,0 +1,114 @@
+/* .EventsMainPage{
+   margin: 25%;
+}
+.EventsMainPage__btn{
+   
+    background-color: lightseagreen;
+    color: white;
+    width:120px;
+    height: 36px;
+}
+.EventsMainPage__btn1{
+    text-align: right;
+    margin-bottom: 5%;
+}
+.EventsMainPage__txt{
+    text-align: left;
+    background-color: darkorange;
+    padding: 2%;
+    margin-bottom: 5%;
+    
+}
+.EventsMainPage__searchBox{
+    float:right;
+    text-align: center;
+
+}
+.EventsMainPage__line{
+    height:1px;
+    background-color: gray;
+    margin-top: 2%;
+    margin-bottom:2%;
+
+} */
+/* need to work on styling*/
+/* .EventsMainPage__pastEventHeader{
+    justify-content: center;
+   
+}
+.EventsMainPage__pastEventName{
+  margin-bottom: 48px;
+  text-align: center;
+  padding-bottom:5px;
+}
+.EventsMainPage__pastEventDate{
+    margin-left: 5%;
+
+}
+.EventsMainPage__pastEventRsvp{
+    margin-left: 5%;
+
+}
+.EventsMainPage__pastEventViewMore{
+    margin-left: 5%;
+
+} */
+
+
+.createNewEvent{
+    margin: auto;
+}
+.createNewEvent__Header{
+   text-align: center;
+   padding:5%;
+   margin-right: 8%;
+}
+.createNewEvent__form{
+    width: 715px;
+    /* height: 36px; */
+}   
+.createNewEvent__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.createNewEvent__textBlock{ 
+    padding:2%;
+
+}
+
+.createNewEvent__inputBlock{
+    border: 1px solid white;
+    border-bottom: 1px solid gray;
+    width: 310px;
+    height: 36px;
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 1px;
+  font-size: 14px;
+}
+.requestFormModal__Btn{
+    width: 715px;
+
+}
+.requestFormModal__cancelBtn{
+    background-color: lightseagreen;
+    color: white;
+    width:120px;
+    height: 36px;
+    margin: 5% 18%;
+   
+}
+.requestFormModal__continueBtn{
+    background-color: lightseagreen;
+    color: white;
+    width:120px;
+    height: 36px;
+    
+}
+.requestFormModal__Other{
+    width: 100%;
+    padding:2%;
+}
+.requestFormModal__checkbox{
+    margin-right: 2%;
+}
