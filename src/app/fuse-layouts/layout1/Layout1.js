@@ -121,7 +121,7 @@ const Layout1 = ({classes, settings, children}) => {
                                                 <FooterLayout1/>
                                             )}
 
-                                            <SettingsPanel/>
+                                            {/* <SettingsPanel/> */}
 
                                         </div>
 
@@ -200,7 +200,7 @@ const Layout1 = ({classes, settings, children}) => {
                                             <FooterLayout1/>
                                         )}
 
-                                        <SettingsPanel/>
+                                        {/* <SettingsPanel/> */}
 
                                     </div>
 
