@@ -8,8 +8,6 @@ import {Link, withRouter} from 'react-router-dom';
 import classNames from 'classnames';
 import * as Actions from 'app/auth/store/actions';
 import FirebaseRegisterTab from './tabs/FirebaseRegisterTab';
-import Auth0RegisterTab from './tabs/Auth0RegisterTab';
-import JWTRegisterTab from './tabs/JWTRegisterTab';
 
 const styles = theme => ({
     root : {
@@ -128,12 +126,11 @@ class Register extends Component {
                             {tabValue === 1 && <FirebaseRegisterTab/>}
                             {/* {tabValue === 2 && <Auth0RegisterTab/>}  */}
 
-                            <JWTRegisterTab/>
+                            <FirebaseRegisterTab/>
 
                             <div className="flex flex-col items-center justify-center pt-32 pb-24">
                                 <span className="font-medium">Already have an account?</span>
                                 <Link className="font-medium" to="/login">Login</Link>
-                                <Link className="font-medium mt-8" to="/">Back to Dashboard</Link>
                             </div>
 
                             <div className="flex flex-col items-center">

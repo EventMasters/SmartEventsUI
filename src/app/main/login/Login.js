@@ -4,9 +4,7 @@ import {darken} from '@material-ui/core/styles/colorManipulator';
 import {FuseAnimate} from '@fuse';
 import {Link, withRouter} from 'react-router-dom';
 import classNames from 'classnames';
-import JWTLoginTab from './tabs/JWTLoginTab';
 import FirebaseLoginTab from './tabs/FirebaseLoginTab';
-import Auth0LoginTab from './tabs/Auth0LoginTab';
 
 const styles = theme => ({
     root: {
@@ -87,12 +85,11 @@ class Login extends Component {
                             {tabValue === 1 && <FirebaseLoginTab/>}
                             {/* {tabValue === 2 && <Auth0LoginTab/>} */}
 
-                            <JWTLoginTab/>
+                            <FirebaseLoginTab/>
                             
                             <div className="flex flex-col items-center justify-center pt-32">
                                 <span className="font-medium">Don't have an account?</span>
                                 <Link className="font-medium" to="/register">Create an account</Link>
-                                <Link className="font-medium mt-8" to="/">Back to Dashboard</Link>
                             </div>
 
                         </CardContent>

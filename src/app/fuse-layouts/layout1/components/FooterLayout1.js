@@ -1,8 +1,8 @@
 import React from 'react';
 import {AppBar, MuiThemeProvider, Toolbar} from '@material-ui/core';
 import connect from 'react-redux/es/connect/connect';
-import PurchaseButton from 'app/fuse-layouts/shared-components/PurchaseButton';
-import PoweredByLinks from 'app/fuse-layouts/shared-components/PoweredByLinks';
+// import PurchaseButton from 'app/fuse-layouts/shared-components/PurchaseButton';
+// import PoweredByLinks from 'app/fuse-layouts/shared-components/PoweredByLinks';
 
 const FooterLayout1 = ({classes, footerTheme}) => {
 
@@ -12,11 +12,12 @@ const FooterLayout1 = ({classes, footerTheme}) => {
                 <Toolbar className="px-16 py-0 flex items-center">
 
                     <div className="flex flex-1">
-                        <PurchaseButton/>
+                        {/* <PurchaseButton/> */}
                     </div>
 
                     <div>
-                        <PoweredByLinks/>
+                        {/* <PoweredByLinks/> */}
+                        SMART EVENTS &copy; 2019
                     </div>
                 </Toolbar>
             </AppBar>
