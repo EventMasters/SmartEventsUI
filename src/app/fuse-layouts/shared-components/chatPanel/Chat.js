@@ -186,7 +186,7 @@ class Chat extends Component {
         const {messageText} = this.state;
         return (
             <Paper elevation={3} className={classNames("flex flex-col", className)}>
-               {/*  <FuseScrollbars
+                <FuseScrollbars
                     containerRef={(ref) => {
                         this.chatScroll = ref
                     }}
@@ -268,9 +268,8 @@ class Chat extends Component {
                             </IconButton>
                         </Paper>
                     </form>
-                )} */}
+                )}
             </Paper>
-        
         );
     }
 }

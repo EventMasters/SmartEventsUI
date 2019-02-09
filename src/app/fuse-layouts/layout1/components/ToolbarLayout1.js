@@ -50,7 +50,7 @@ const ToolbarLayout1 = ({classes, settings, toolbarTheme}) => {
 
                             <div className={classes.separator}/>
 
-                            {/* <ChatPanelToggleButton/> */}
+                            <ChatPanelToggleButton/>
                         </Hidden>
 
                         <div className={classes.separator}/>

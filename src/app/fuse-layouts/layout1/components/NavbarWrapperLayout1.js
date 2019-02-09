@@ -57,8 +57,8 @@ const styles = theme => ({
     foldedAndClosed: {
         '& $navbarContent': {
             '& .logo-icon'                          : {
-                width : 48,
-                height: 48
+                width : 32,
+                height: 32
             },
             '& .logo-text'                          : {
                 opacity: 0
