@@ -1,16 +1,16 @@
 import * as Actions from '../actions';
 
 const initialState = {
-    role: 'guest',
+    role: 'user',
     data: {
-        'displayName': 'John Doe',
-        'photoURL'   : 'assets/images/avatars/Velazquez.jpg',
-        'email'      : 'johndoe@withinpixels.com',
+        'displayName': 'User',
+        'photoURL'   : '',
+        'email'      : 'user@smartevents.com',
         shortcuts    : [
             'calendar',
-            'mail',
-            'contacts',
-            'todo'
+            'dashboards',
+            'friend'
+            
         ]
     }
 };

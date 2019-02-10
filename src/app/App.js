@@ -1,3 +1,4 @@
+import  '@db';
 import React from 'react';
 import {createGenerateClassName, jssPreset} from '@material-ui/core';
 import {FuseAuthorization, FuseLayout, FuseTheme} from '@fuse';
@@ -11,6 +12,7 @@ import {Auth} from './auth';
 import store from './store';
 import AppContext from './AppContext';
 import routes from './fuse-configs/routesConfig';
+
 
 const jss = create({
     ...jssPreset(),

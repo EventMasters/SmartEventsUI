@@ -1,18 +1,53 @@
 const navigationConfig = [
     {
-        'id'      : 'applications',
-        'title'   : 'Applications',
-        'type'    : 'group',
-        'icon'    : 'apps',
-        'children': [
-            {
-                'id'   : 'example-component',
-                'title': 'Example',
+        
+                'id'   : 'dashboards',
+                'title': 'Dashboard',
                 'type' : 'item',
-                'icon' : 'whatshot',
-                'url'  : '/example'
+                'icon' : 'dashboard',
+                'url'  : '/smartevents/dashboard'
+           
+    }
+
+  ,
+
+    {
+        'id'   : 'event',
+        'title': 'Event',
+        'type' : 'collapse',
+        'icon' : 'event_seat',
+        'url' :'/smartevents/event',
+        'children':
+        [
+            {'id'   : 'event',
+            'title': 'Events',
+            'type' : 'item',
+            
+            'url'  : '/smartevents/event/events'
+            },
+            {'id'   : 'event',
+            'title': 'My Event',
+            'type' : 'item',
+            
+            'url'  : '/smartevents/event/newevent'
             }
         ]
+    },
+    {
+        'id'   : 'friend',
+        'title': 'Friends',
+        'type' : 'item',
+        'icon' : 'account_box',
+        'url'  : '/smartevents/friends'
+        
+    }
+    ,
+    {
+        'id'   : 'calendar',
+        'title': 'Calendar',
+        'type' : 'item',
+        'icon' : 'today',
+        'url'  : '/smartevents/calendar'
     }
 ];
 

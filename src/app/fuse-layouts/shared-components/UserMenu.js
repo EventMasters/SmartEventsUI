@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import * as authActions from 'app/auth/store/actions';
 import {bindActionCreators} from 'redux';
 import {Link} from 'react-router-dom';
+import Notification from './Notification';
 
 class UserMenu extends Component {
 
@@ -45,7 +46,7 @@ class UserMenu extends Component {
                             {user.data.displayName}
                         </Typography>
                         <Typography className="text-11 capitalize" color="textSecondary">
-                            {user.role}
+                            {/* {user.role} */}
                         </Typography>
                     </div>
 
@@ -65,7 +66,7 @@ class UserMenu extends Component {
                         horizontal: 'center'
                     }}
                     classes={{
-                        paper: "py-8"
+                        paper: "py-18"
                     }}
                 >
                     {user.role === 'guest' ? (

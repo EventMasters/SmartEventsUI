@@ -29,7 +29,7 @@ const DemoContent = () => {
                     happened to me? " he thought. It wasn't a dream.
                 </p>
                 <footer>
-                    John Doe
+                    Malar
                 </footer>
             </blockquote>
 
