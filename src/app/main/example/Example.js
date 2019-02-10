@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Example.css'
-import DatePicker from 'react-datepicker';
 import moment from 'moment';
 import 'react-day-picker/lib/style.css';
 import 'react-datepicker/dist/react-datepicker.css';

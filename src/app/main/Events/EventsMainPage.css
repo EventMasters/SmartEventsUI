@@ -1,0 +1,52 @@
+    .EventsMainPage{
+   margin: 25%;
+   margin-top: 10%;
+}
+.EventsMainPage__btn{
+   
+    background-color:black;
+    text-decoration: none;
+    width:120px;
+    height: 36px;
+    float: right;
+    text-align: center;
+    padding-top:1%;
+}
+
+.EventsMainPage__txt{
+    margin-top:10%;
+    text-align: left;
+    background-color: darkorange;
+    padding: 2%;
+    margin-bottom: 5%;
+    
+}
+.EventsMainPage__searchBox{
+    float:right;
+    text-align: center;
+
+}
+.EventsMainPage__line{
+    height:1px;
+    background-color: gray;
+    margin-top: 2%;
+    margin-bottom:2%;
+
+} 
+.EventsMainPage__pastEventHeader{
+    justify-content: center;
+   
+}
+
+.EventsMainPage__pastEventName,
+.EventsMainPage__pastEventDate,
+.EventsMainPage__pastEventRsvp,
+.EventsMainPage__pastEventViewMore {
+  width: 145px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  /* zoom: 1; */
+  margin-bottom: 20px;
+  text-align: left;
+}

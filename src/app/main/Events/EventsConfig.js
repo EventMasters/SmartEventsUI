@@ -1,15 +1,22 @@
-import EventsMainPage from './EventsMainPage';
+import {FuseLoadable} from '@fuse';
 
 export const EventsConfig = {
     settings: {
-        layout: {
-            config: {}
-        }
+        layout: {}
     },
-    routes  : [
+    routes: [
         {
-            path     : '/Event',
-            component: EventsMainPage
+            path     : '/smartevents/event/events',
+            component: FuseLoadable({
+                loader: () => import('./EventsMainPage')
+            })
+        },
+        {
+            path :'/smartevents/event/newevent',
+            component:  FuseLoadable({
+                loader: () => import('./NewEvent')
+            })
         }
+
     ]
 };

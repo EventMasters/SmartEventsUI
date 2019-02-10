@@ -1,26 +1,26 @@
-const navigationConfig = [
-    {
-        'id'      : 'applications',
-        'title'   : 'Applications',
-        'type'    : 'group',
-        'icon'    : 'apps',
-        'children': [
-            {
-                'id'   : 'example-component',
-                'title': 'Example',
-                'type' : 'item',
-                'icon' : 'whatshot',
-                'url'  : '/Example'
+    const navigationConfig = [
+        {
+        'id'   : 'event',
+        'title': 'Event',
+        'type' : 'collapse',
+        'icon' : 'event_seat',
+        'url' :'/smartevents/event',
+        'children':
+        [
+            {'id'   : 'event',
+            'title': 'Events',
+            'type' : 'item',
+            'url'  : '/smartevents/event/events'
             },
-            {
-                'id'   : 'event-component',
-                'title': 'Events',
-                'type' : 'item',
-                'icon' : 'check_box',
-                'url'  : '/apps/Events'
-            }
+            
+        {
+        'id'   : 'event',
+        'title': 'New Event',
+        'type' : 'item',
+        'url'  : '/smartevents/event/newevent'
+        }
         ]
     }
-];
+    ];
 
-export default navigationConfig;
+    export default navigationConfig;
